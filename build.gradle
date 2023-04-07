@@ -56,6 +56,9 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2854'
 
+    //Embers Rekindled
+    compileOnly("curse.maven:embersrekindled-300777:3695248")
+
     //Arcane Archives
     compileOnly("curse.maven:arcanearchives-311357:3057332")
 

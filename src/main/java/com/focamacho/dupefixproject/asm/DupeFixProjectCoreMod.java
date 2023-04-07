@@ -72,6 +72,9 @@ public class DupeFixProjectCoreMod implements IFMLLoadingPlugin {
         //Quark
         LoadedFixes.quark = loadMixin("mixins.dupefixproject.quark.json", "quark");
 
+        //Embers Rekindled
+        LoadedFixes.embersrekindled = loadMixin("mixins.dupefixproject.embersrekindled.json", "embers");
+
         MixinBootstrap.init();
         ModHandler.clear();
     }
