@@ -75,6 +75,9 @@ public class DupeFixProjectCoreMod implements IFMLLoadingPlugin {
         //Embers Rekindled
         LoadedFixes.embersrekindled = loadMixin("mixins.dupefixproject.embersrekindled.json", "embers");
 
+        //Immersive Engineering
+        LoadedFixes.immersiveengineering = loadMixin("mixins.dupefixproject.immersiveengineering.json", "immersiveengineering");
+
         MixinBootstrap.init();
         ModHandler.clear();
     }

@@ -27,6 +27,7 @@ public class LoadedFixes {
     public static boolean ironBackpacks = false;
     public static boolean quark = false;
     public static boolean embersrekindled = false;
+    public static boolean immersiveengineering = false;
 
     public static void sendLoadedFixesLog() {
         sendLog(actuallyAdditions, "Actually Additions");
@@ -52,6 +53,7 @@ public class LoadedFixes {
         sendLog(ironBackpacks, "Iron Backpacks");
         sendLog(quark, "Quark");
         sendLog(embersrekindled,"Embers Rekindled");
+        sendLog(immersiveengineering, "Immersive Engineering");
     }
 
     private static void sendLog(boolean loaded, String modName) {

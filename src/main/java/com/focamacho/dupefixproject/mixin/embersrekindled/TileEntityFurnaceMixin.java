@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.Mixin;
 public class TileEntityFurnaceMixin{
 
     /**
-     * @author
+     * @author xinyihl
      * @reason fix TileEntityFurnaceTop
      */
     @Overwrite
